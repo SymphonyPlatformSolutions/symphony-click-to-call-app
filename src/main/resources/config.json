@@ -1,17 +1,15 @@
 {
-    "sessionAuthHost": "your-pod.symphony.com",
-    "sessionAuthPort": 443,
-    "keyAuthHost": "your-pod.symphony.com",
-    "keyAuthPort": 443,
-    "podHost": "your-pod.symphony.com",
-    "podPort": 443,
-    "agentHost": "your-pod.symphony.com",
-    "agentPort": 443,
-
-    "truststorePath": "src/main/resources/certificates/all_symphony_certs_truststore",
-    "truststorePassword": "changeit",
-
-    "appId": "click-to-call",
-    "appPrivateKeyPath": "rsa/",
-    "appPrivateKeyName": "rsa-private.pem"
+  "sessionAuthHost": "psdev.symphony.com",
+  "sessionAuthPort": 443,
+  "keyAuthHost": "psdev.symphony.com",
+  "keyAuthPort": 443,
+  "podHost": "psdev.symphony.com",
+  "podPort": 443,
+  "agentHost": "psdev.symphony.com",
+  "agentPort": 443,
+  "appId": "click-to-call",
+  "appPrivateKeyPath": "rsa/",
+  "appPrivateKeyName": "rsa-private.pem",
+  "truststorePath": "internal_truststore",
+  "truststorePassword": "changeit"
 }
