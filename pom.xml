@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.symphony.platformsolutions</groupId>
-    <artifactId>sfdc-ui-app</artifactId>
+    <artifactId>click-to-call</artifactId>
     <version>0.1</version>
-    <name>Symphony Demo SFDC UI Application</name>
+    <name>Symphony Click-to-Call Example App</name>
     <url>https://github.com/SymphonyPlatformSolutions/symphony-click-to-call-app</url>
     <description>Example extension app that adds a click-to-call button to IMs</description>
 

@@ -1,15 +1,15 @@
 {
-  "sessionAuthHost": "preview.symphony.com",
+  "sessionAuthHost": "psdev.symphony.com",
   "sessionAuthPort": 443,
-  "keyAuthHost": "preview.symphony.com",
+  "keyAuthHost": "psdev.symphony.com",
   "keyAuthPort": 443,
-  "podHost": "preview.symphony.com",
+  "podHost": "psdev.symphony.com",
   "podPort": 443,
-  "agentHost": "preview.symphony.com",
+  "agentHost": "psdev.symphony.com",
   "agentPort": 443,
-  "appId": "sfdc-ui-app",
+  "appId": "click-to-call",
   "appPrivateKeyPath": "rsa/",
-  "appPrivateKeyName": "rsa-private-sfdc.pem",
+  "appPrivateKeyName": "rsa-private.pem",
   "truststorePath": "internal_truststore",
   "truststorePassword": "changeit"
 }
