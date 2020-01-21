@@ -21,9 +21,4 @@ public class WebController {
         map.put("token", appAuth.appAuthenticate().getAppToken());
         return map;
     }
-
-    @GetMapping("/healthz")
-    public String getHealth() {
-        return "OK";
-    }
 }

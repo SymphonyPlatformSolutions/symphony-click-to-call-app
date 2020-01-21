@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import java.net.URL;
 
 @SpringBootApplication
 public class ClickToCallApp {
@@ -17,7 +18,10 @@ public class ClickToCallApp {
     }
 
     public ClickToCallApp() {
-        config = SymConfigLoader.loadConfig("config.json");
+        URL url = getClass().getClassLoader().getResource("config.json");
+        if (url == null)
+            throw new RuntimeException("Bad URL");
+        config = SymConfigLoader.loadFromFile(url.getPath());
     }
 
     @Bean

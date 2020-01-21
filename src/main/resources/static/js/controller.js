@@ -1,9 +1,8 @@
 const clickToCallName = 'clickToCall:controller';
 const clickToCallService = SYMPHONY.services.register(clickToCallName);
-const baseUrl = 'https://localhost:4000';
 
 let appToken = undefined;
-let appTokenPromise = fetch(`${baseUrl}/appToken`)
+let appTokenPromise = fetch('https://localhost:4000/appToken')
   .then(res => res.json())
   .then(res => {
     appToken = res['token'];
@@ -20,7 +19,7 @@ Promise.all([ appTokenPromise, SYMPHONY.remote.hello()]).then(data => {
     const dialogsService = SYMPHONY.services.subscribe('dialogs');
     const noPhoneMessage = `<dialog>No phone information for this user<br /><br /></dialog>`;
     const callButton = {
-      icon: `${baseUrl}/img/icon_small.png`,
+      icon: 'https://localhost:4000/img/icon_small.png',
       label: 'Click to Call',
       data: {}
     };
