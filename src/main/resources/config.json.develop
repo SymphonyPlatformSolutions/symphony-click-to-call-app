@@ -1,0 +1,15 @@
+{
+  "sessionAuthHost": "develop.symphony.com",
+  "sessionAuthPort": 443,
+  "keyAuthHost": "develop.symphony.com",
+  "keyAuthPort": 443,
+  "podHost": "develop.symphony.com",
+  "podPort": 443,
+  "agentHost": "develop.symphony.com",
+  "agentPort": 443,
+  "appId": "sfdc-ui-app",
+  "appPrivateKeyPath": "/Users/vinay/Downloads/Development/test-bots/symphony-click-to-call-app/src/main/resources/rsa/",
+  "appPrivateKeyName": "rsa-private-sfdc.pem",
+  "truststorePath": "internal_truststore",
+  "truststorePassword": "changeit"
+}

@@ -2,12 +2,12 @@
   "applications": [
     {
       "type": "sandbox",
-      "id": "click-to-call",
-      "name": "Click to Call",
+      "id": "sfdc-ui-app",
+      "name": "SalesForce UI Application",
       "description": "Adds a button in the user profile screen to launch calls to third-party telephony systems",
       "publisher": "Symphony Platform Solutions",
       "url": "https://localhost:4000/controller.html",
-      "icon": "https://localhost:4000/img/icon.png",
+      "icon": "https://media.giphy.com/media/3oz8xswGQr6wBVKAwM/giphy.gif",
       "domain": "localhost"
     }
   ]

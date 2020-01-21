@@ -1,4 +1,5 @@
-.idea
+.idea/
 *.iml
-rsa
-target
+rsa/
+target/
+deploy/
