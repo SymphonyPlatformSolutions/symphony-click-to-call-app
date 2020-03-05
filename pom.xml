@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.symphony.platformsolutions</groupId>
-    <artifactId>click-to-call</artifactId>
+    <artifactId>sfdc-ui-app</artifactId>
     <version>0.1</version>
-    <name>Symphony Click-to-Call Example App</name>
+    <name>Symphony Demo SFDC UI Application</name>
     <url>https://github.com/SymphonyPlatformSolutions/symphony-click-to-call-app</url>
     <description>Example extension app that adds a click-to-call button to IMs</description>
 
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>com.symphony.platformsolutions</groupId>
             <artifactId>symphony-api-client-java</artifactId>
-            <version>1.0.33</version>
+            <version>1.0.35</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
