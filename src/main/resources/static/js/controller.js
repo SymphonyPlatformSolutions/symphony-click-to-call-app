@@ -1,8 +1,6 @@
 const clickToCallName = 'clickToCall:controller';
 const clickToCallService = SYMPHONY.services.register(clickToCallName);
-// const baseUrl = 'https://localhost:4000';
-// ./ngrok https 4000
-const baseUrl = 'https://cac073b8.ngrok.io';
+const baseUrl = 'https://development.symphonymarket.solutions/sfdc-ui-app';
 
 let appToken = undefined;
 let appTokenPromise = fetch(`${baseUrl}/appToken`)
